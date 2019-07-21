@@ -1,11 +1,11 @@
-from common.labels import Label
+from .common.labels import Label
 
 
 class FramePolarity(object):
 
     def __init__(self, src, dest, label, prob):
-        assert(isinstance(src, unicode))
-        assert(isinstance(dest, unicode))
+        assert(isinstance(src, str))
+        assert(isinstance(dest, str))
         assert(isinstance(label, Label))
         assert(isinstance(prob, float))
         self.__src = src

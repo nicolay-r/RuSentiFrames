@@ -1,5 +1,5 @@
 from ..common.bound import Bound
-from variant import FrameVariant
+from .variant import FrameVariant
 
 
 class TextFrameVariant:

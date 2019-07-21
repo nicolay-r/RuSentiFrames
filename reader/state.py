@@ -1,10 +1,10 @@
-from common.labels import Label
+from .common.labels import Label
 
 
 class FrameState(object):
 
     def __init__(self, role, label, prob):
-        assert(isinstance(role, unicode))
+        assert(isinstance(role, str))
         assert(isinstance(label, Label))
         assert(isinstance(prob, float))
         self.__role = role

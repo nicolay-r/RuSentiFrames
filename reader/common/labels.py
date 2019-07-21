@@ -1,10 +1,9 @@
 class Label:
 
     @staticmethod
-    def from_int(value):
-        assert(isinstance(value, int))
+    def from_str(value):
         for l in Label._get_supported_labels():
-            if l.to_int() == value:
+            if l.to_str() == value:
                 return l
         raise Exception("Label by value '{}' doesn't supported".format(value))
 
@@ -16,18 +15,16 @@ class Label:
         ]
         return supported_labels
 
-    def to_int(self):
-        raise NotImplementedError()
-
 
 class PositiveLabel(Label):
 
-    def to_int(self):
-        return int(1)
+    def to_str(self):
+        return 'pos'
 
 
 class NegativeLabel(Label):
 
-    def to_int(self):
-        return int(-1)
+    def to_str(self):
+        return 'neg'
+
 

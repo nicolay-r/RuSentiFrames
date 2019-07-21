@@ -1,19 +1,13 @@
 # -*- coding: utf-8 -*-
 import collections
-from variant import FrameVariant
+from .variant import FrameVariant
 
 
 class FrameVariantsCollection:
 
-    def __init__(self, variants, frames_list):
-        """
-        frames_list: list
-            list of "frame_id" (typeof unicode) items.
-        """
+    def __init__(self, variants):
         assert(isinstance(variants, dict))
-        assert(isinstance(frames_list, list))
         self.__variants = variants
-        self.__frames_list = frames_list
 
     @classmethod
     def from_iterable(cls, variants_with_id):
@@ -26,28 +20,23 @@ class FrameVariantsCollection:
             FrameVariantsCollection.__register_frame(frames_dict, frames_list, frame_id)
             variants[variant] = FrameVariant(variant, frame_id)
 
-        return cls(variants=variants, frames_list=frames_list)
+        return cls(variants=variants)
 
     @staticmethod
-    def __register_frame(frames_dict, frames_list, id):
-        assert(isinstance(id, unicode))
-        if id not in frames_dict:
-            frames_dict[id] = len(frames_list)
-            frames_list.append(id)
-        return frames_dict[id]
+    def __register_frame(frames_dict, frames_list, frame_id):
+        assert(isinstance(frame_id, str))
+        if frame_id not in frames_dict:
+            frames_dict[frame_id] = len(frames_list)
+            frames_list.append(frame_id)
+        return frames_dict[frame_id]
 
-    def get_frame_by_index(self, index):
-        return self.__frames_list[index]
-
-    def get_variant_by_template(self, template):
-        if template in self.__variants:
-            return self.__variants[template]
-        return None
+    def get_variant_by_value(self, value):
+        return self.__variants[value] if value in self.__variants else None
 
     def has_variant(self, template):
         return template in self.__variants
 
     def iter_variants(self):
-        for template, variant in self.__variants.iteritems():
+        for template, variant in self.__variants.items():
             yield template, variant
 
