@@ -1,7 +1,7 @@
 import json
 
 from .state import FrameState
-from .common.labels import Label
+from .common.labels import Label, PositiveLabel, NegativeLabel
 from .polarity import FramePolarity
 from .role import FrameRole
 
@@ -10,7 +10,7 @@ class RuSentiFramesCollection:
 
     __frames_key = "frames"
     __polarity_key = "polarity"
-    __states_key = "states"
+    __state_key = "state"
 
     def __init__(self, data):
         assert(isinstance(data, dict))
@@ -52,11 +52,11 @@ class RuSentiFramesCollection:
     def get_frame_states(self, frame_id):
         assert(isinstance(frame_id, str))
 
-        if self.__states_key not in self.__data[frame_id][self.__frames_key]:
+        if self.__state_key not in self.__data[frame_id][self.__frames_key]:
             return []
 
-        return [FrameState(role=args[0], label=args[1], prob=args[2])
-                for args in self.__data[frame_id][self.__frames_key][self.__states_key]]
+        return [FrameState(role=args[0], label=Label.from_str(args[1]), prob=args[2])
+                for args in self.__data[frame_id][self.__frames_key][self.__state_key]]
 
     def get_frame_titles(self, frame_id):
         assert(isinstance(frame_id, str))
