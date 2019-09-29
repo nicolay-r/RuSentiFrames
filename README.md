@@ -1,6 +1,7 @@
 # RuSentiFrames 1.0
 
 This lexicon describes sentiments and connotations conveyed with a predicate in a verbal or nominal form.
+(see **References** section for details).
 
 The structure of the frames includes:
 
@@ -79,3 +80,14 @@ situation.
 Folder `reader` contains a collection reader (source file parsers), written in Python-3.6.
 
 Please refer to [read.py](read.py), as it provides an example of how this collection could be parsed/readed. 
+
+## References
+
+```
+@article{rusnachenko2019distant,
+  title={Distant Supervision for Sentiment Attitude Extraction},
+  author={Rusnachenko, Nicolay and Loukachevitch, Natalia and Tutubalina, Elena},
+  booktitle={RANLP},
+  year={2019}
+}
+```
