@@ -1,7 +1,9 @@
-# RuSentiFrames 1.0
+# RuSentiFrames 2.0
 
 This lexicon describes sentiments and connotations conveyed with a predicate in a verbal or nominal form.
-Checkout [[paper-ranlp-proceeding]](http://lml.bas.bg/ranlp2019/proceedings-ranlp-2019.pdf) for details.
+Checkout reference section for details in related paper.
+
+## Structure
 
 The structure of the frames includes:
 
@@ -17,6 +19,10 @@ participants;
 * positive or negative mental states of
 participants related to the described
 situation.
+
+## Statistics
+
+> To be added.
 
 ## Format Description
 
@@ -81,13 +87,17 @@ Folder `reader` contains a collection reader (source file parsers), written in P
 
 Please refer to [read.py](read.py), as it provides an example of how this collection could be parsed/readed. 
 
+## Prior Releases
+
+[RuSentiFrames-1.0](https://github.com/nicolay-r/RuSentiFrames/tree/v1.0)
+
 ## References
 
 ```
-@article{rusnachenko2019distant,
-  title={Distant Supervision for Sentiment Attitude Extraction},
-  author={Rusnachenko, Nicolay and Loukachevitch, Natalia and Tutubalina, Elena},
-  booktitle={RANLP},
+@article{loukachevitch2020sentiment,
+  title={Sentiment Frames for Attitude Extraction in Russian},
+  author={Loukachevitch, Natalia and Rusnachenko, Nicolay},
+  booktitle={Proceedings of International Conference on Computational Linguistics and Intellectual },
   year={2019}
 }
 ```
