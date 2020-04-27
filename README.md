@@ -97,7 +97,9 @@ Please refer to [read.py](read.py), as it provides an example of how this collec
 @article{loukachevitch2020sentiment,
   title={Sentiment Frames for Attitude Extraction in Russian},
   author={Loukachevitch, Natalia and Rusnachenko, Nicolay},
-  booktitle={Proceedings of International Conference on Computational Linguistics and Intellectual },
+  booktitle={Proceedings of International Conference on 
+             Computational Linguistics and Intellectual 
+             Technologies Dialogue-2020},
   year={2019}
 }
 ```
