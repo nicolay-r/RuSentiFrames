@@ -1,7 +1,7 @@
 # RuSentiFrames 1.0
 
 This lexicon describes sentiments and connotations conveyed with a predicate in a verbal or nominal form.
-(see **References** section for details).
+Checkout [[paper-ranlp-proceeding]](http://lml.bas.bg/ranlp2019/proceedings-ranlp-2019.pdf) for details.
 
 The structure of the frames includes:
 
