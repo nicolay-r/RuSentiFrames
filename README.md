@@ -6,6 +6,7 @@ This lexicon describes sentiments and connotations conveyed with a predicate in 
 
 | Lexical Unit Type | v-1.0 |
 |-------------------|-------|
+| *Frame Entries*   | 277   |
 | Verbs             | 2794  |
 | Nouns             | 822   |
 | Phrases           | 2401  |
