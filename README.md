@@ -1,6 +1,7 @@
 # RuSentiFrames 2.0
 
-> **Release notes:** [Statistics](#statistics) update;
+> **Release notes:** [Statistics](#statistics) update.
+>   * Enlarged with 12% new frame entries;
 >   * cleared `Other` lexical units;
 >   * `author→A0` and `author→A1` labelings mostly removed; 
 
@@ -10,7 +11,8 @@ Checkout reference section for details in related paper.
 ## Statistics
 
 | Lexical Unit Type | v-2.0 | Diff    | 
-|:------------------|-------|---------|
+|:------------------|-------|:--------|
+| *Frame Entries*   | 311   | **+12%**|
 | Verbs             | 3239  | **+16%**|
 | Nouns             | 986   | **+20%**|
 | Phrases           | 2551  | **+6%** |
@@ -19,13 +21,13 @@ Checkout reference section for details in related paper.
 | Total Entries     | 7034  | **+10%**|
 
 | Polarity       | Polarity | v-2.0 | Diff    |
-|:---------------|----------|-------|---------|
+|:---------------|----------|-------|:--------|
 | A0→A1          | POS      | 2558  | **+14%**|
 | A0→A1          | NEG      | 3289  | **+17%**|
-| author->A0     | POS      | 170   | removed |
-| author->A0     | NEG      | 1578  | -       |
-| author->A1     | POS      | 92    | removed |
-| author->A1     | NEG      | 249   | removed |
+| author→A0      | POS      | 170   | removed |
+| author→A0      | NEG      | 1578  | -       |
+| author→A1      | POS      | 92    | removed |
+| author→A1      | NEG      | 249   | removed |
 
 > **NOTE**: Diff corresponds to comparison with the v-1.0
 
