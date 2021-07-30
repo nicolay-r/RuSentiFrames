@@ -1,7 +1,29 @@
 # RuSentiFrames 2.0
 
-This lexicon describes sentiments and connotations conveyed with a predicate in a verbal or nominal form.
+> **Release notes:** [statistics](#statistics) update.
+
+Represents a lexicon which describes sentiments and connotations conveyed with a predicate in a verbal or nominal form.
 Checkout reference section for details in related paper.
+
+## Statistics
+
+| Lexical Unit Type | v-2.0 |
+|-------------------|-------|
+| Verbs             | 3 239 |
+| Nouns             | 986   |
+| Phrases           | 2 551 |
+| Other             | 12    |
+| Unique Entries    | 6 788 |
+| Total Entries     | 7 034 |
+
+| Polarity       | Polarity | v-2.0 |
+|----------------|----------|-------|
+| A0->A1         | POS      | 2558  |
+| A10->A1        | NEG      | 3289  |
+| Phrases        | POS      | 170   |
+| Other          | NEG      | 1578  |
+| Unique Entries | POS      | 92    |
+| Total Entries  | NEG      | 249   |
 
 ## Structure
 
@@ -19,10 +41,6 @@ participants;
 * positive or negative mental states of
 participants related to the described
 situation.
-
-## Statistics
-
-> To be added.
 
 ## Format Description
 
