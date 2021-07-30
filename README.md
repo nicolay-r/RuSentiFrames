@@ -2,6 +2,28 @@
 
 This lexicon describes sentiments and connotations conveyed with a predicate in a verbal or nominal form.
 
+## Statistics
+
+| Lexical Unit Type | v-1.0 |
+|-------------------|-------|
+| Verbs             | 2794  |
+| Nouns             | 822   |
+| Phrases           | 2401  |
+| Other             | 49    |
+| Unique Entries    | 6036  |
+| Total Entries     | 6412  |
+
+| Polarity       | Polarity | v-1.0 |
+|----------------|----------|-------|
+| A0→A1          | POS      | 2252  |
+| A0→A1          | NEG      | 2802  |
+| Phrases        | POS      | 1178  |
+| Other          | NEG      | 1571  |
+| Unique Entries | POS      | 1429  |
+| Total Entries  | NEG      | 815   |
+
+## Structure
+
 The structure of the frames includes:
 
 1. **Role designation:** A0 is an argument exhibiting features of a Prototypical Agent, and
