@@ -1,6 +1,8 @@
 # RuSentiFrames 2.0
 
-> **Release notes:** [statistics](#statistics) update.
+> **Release notes:** 
+>   * [Statistics](#statistics) update;
+>   * author->A1 labeling almost removed; 
 
 Represents a lexicon which describes sentiments and connotations conveyed with a predicate in a verbal or nominal form.
 Checkout reference section for details in related paper.
@@ -8,22 +10,22 @@ Checkout reference section for details in related paper.
 ## Statistics
 
 | Lexical Unit Type | v-2.0 |
-|-------------------|-------|
-| Verbs             | 3 239 |
+|:------------------|-------|
+| Verbs             | 3239  |
 | Nouns             | 986   |
-| Phrases           | 2 551 |
+| Phrases           | 2551  |
 | Other             | 12    |
-| Unique Entries    | 6 788 |
-| Total Entries     | 7 034 |
+| Unique Entries    | 6788  |
+| Total Entries     | 7034  |
 
 | Polarity       | Polarity | v-2.0 |
-|----------------|----------|-------|
-| A0->A1         | POS      | 2558  |
-| A10->A1        | NEG      | 3289  |
-| Phrases        | POS      | 170   |
-| Other          | NEG      | 1578  |
-| Unique Entries | POS      | 92    |
-| Total Entries  | NEG      | 249   |
+|:---------------|----------|-------|
+| A0→A1          | POS      | 2558  |
+| A0→A1          | NEG      | 3289  |
+| author->A0     | POS      | 170   |
+| author->A0     | NEG      | 1578  |
+| author->A1     | POS      | 92    |
+| author->A1     | NEG      | 249   |
 
 ## Structure
 
