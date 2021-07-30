@@ -13,14 +13,14 @@ This lexicon describes sentiments and connotations conveyed with a predicate in 
 | Unique Entries    | 6036  |
 | Total Entries     | 6412  |
 
-| Polarity       | Polarity | v-1.0 |
-|----------------|----------|-------|
-| A0→A1          | POS      | 2252  |
-| A0→A1          | NEG      | 2802  |
-| Phrases        | POS      | 1178  |
-| Other          | NEG      | 1571  |
-| Unique Entries | POS      | 1429  |
-| Total Entries  | NEG      | 815   |
+| Polarity      | Polarity | v-1.0 |
+|:--------------|----------|-------|
+| A0→A1         | POS      | 2252  |
+| A0→A1         | NEG      | 2802  |
+| author→A0     | POS      | 1178  |
+| author→A0     | NEG      | 1571  |
+| author→A1     | POS      | 1429  |
+| author→A1     | NEG      | 815   |
 
 ## Structure
 
