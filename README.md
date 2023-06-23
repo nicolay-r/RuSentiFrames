@@ -52,7 +52,7 @@ situation.
 
 The lexicon presented in JSON format.
 
-Below is an example of the frame ```выйграть```:
+Below is an example of the frame ```выйграть``` (to win):
 ```
 "0_4": {
     "title": [
