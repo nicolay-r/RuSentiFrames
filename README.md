@@ -1,4 +1,9 @@
 # RuSentiFrames 2.0
+[![](https://img.shields.io/badge/AREkit--ss_Compatible-0.23.1-purple.svg)](https://github.com/nicolay-r/arekit-ss#usage)
+
+> 📓 **Update 01 October 2023**: this lexicon **is now available in [arekit-ss](https://github.com/nicolay-r/arekit-ss)**
+> in text processing for most collections of the [sentiment attitude extraction task](https://arxiv.org/pdf/1808.08932.pdf) (in Russian)
+> with just **single script into JSONL/CSV/SqLite`** including (optional) language transferring 🔥 [[Learn more ...]](https://github.com/nicolay-r/arekit-ss#usage)
 
 > **Release notes:** [Statistics](#statistics) update.
 >   * Enlarged with 12% new frame entries;
